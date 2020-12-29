@@ -33,16 +33,10 @@ element.href = url.toString();
 
 # Contact
 
-I value my time, so make it worth it, and [keep it succinct](https://www.google.com/search?q=succinct+emails).
-
 ---
 
 <p id="email">
-	<a href="mailto:sindresorhus@gmail.com">sindresorhus@gmail.com</a>
+	<a href="mailto:jimmy@jameskajon.com">jimmy@jameskajon.com</a>
 </p>
 
 ---
-
-Please no support questions, job offers, questionnaires, etc.
-
-If the answer to your question could be interesting to others, consider asking in my [AMA](https://github.com/sindresorhus/ama) instead.

@@ -3,7 +3,7 @@ layout: simple
 title: About
 ---
 
-# About Sindre Sorhus
+# About James Kajon
 
 I'm a full-time open-source developer. In 2014, I quit my office job to backpack around Southeast Asia while doing open-source. I have since settled in Bangkok, Thailand, but I'm still doing open-source all day. In early 2018, I became [fully funded by the community ❤️](https://twitter.com/sindresorhus/status/963478258808340482).
 

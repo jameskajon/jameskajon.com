@@ -1,7 +1,5 @@
 /* eslint-env browser */
 
-const isDev = !['localhost', '127.0.0.1'].includes(location.hostname);
-
 // Helper
 const dom = {
 	select: document.querySelector.bind(document),

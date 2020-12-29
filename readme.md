@@ -1,6 +1,6 @@
-# [sindresorhus.com](https://sindresorhus.com)
+# [jameskajon.com](https://jameskajon.com)
 
-> Personal website of Sindre Sorhus
+> Personal website of James Kajon
 
 *The website targets the latest version of Chrome, Safari, and Firefox.*
 

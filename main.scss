@@ -245,15 +245,6 @@ a.navbar-item:not(.button) {
 	margin-bottom: 20px;
 }
 
-#projects {
-	opacity: 0;
-	transition: opacity 0.5s ease-in;
-}
-
-#projects p {
-	font-size: 16px;
-}
-
 /* inline codeblock */
 code.highlighter-rouge {
 	color: #8f3d74;

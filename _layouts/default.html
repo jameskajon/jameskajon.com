@@ -3,9 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/icons/logo-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/icons/logo-16x16.png">
 		<link rel="manifest" href="/icons/site.webmanifest">
+		<meta name="theme-color" content="#27E">
+		<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
 		<meta name="author" content="James Kajon">
 		{% capture description %}{% if page.description %}{{ page.description | strip_html }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
 		<meta name="description" content="{{ description }}">
@@ -42,7 +44,7 @@
 					<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
 						<div class="navbar-brand">
 							{% if page.url == '/' %}
-								<a id="unicorn-btn" class="navbar-item" href="https://sindresorhus.com/unicorn" title="Click me!"><img src="/icons/android-chrome-192x192.png" alt="James A. Kajon"></a>
+								<a id="unicorn-btn" class="navbar-item" href="https://sindresorhus.com/unicorn" title="Click me!"><img src="/icons/logo-192x192.png" alt="James A. Kajon"></a>
 							{% else %}
 								<span class="navbar-item">James A. Kajon</span>
 							{% endif %}

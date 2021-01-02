@@ -6,3 +6,5 @@ Background Color: #27E
 Background: Circle
 Font Family: Lato
 Font Size: 90
+
+Maskable icon made with https://maskable.app/editor

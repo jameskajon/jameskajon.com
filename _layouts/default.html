@@ -15,7 +15,7 @@
 		<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 		<meta property="og:url" content="{{ page.url | absolute_url }}">
 		<meta property="og:description" content="{{ description }}">
-		{% if page.collection == 'apps' %}
+		{% if page.collection %}
 			{% for file in site.static_files %}
 				{% assign path = '/assets/' | append: page.slug | append: '/icon' %}
 				{% if file.path contains path %}
@@ -28,7 +28,6 @@
 		<meta name="x-build-time" content="{{ site.time | date_to_rfc822 }}">
 		<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 		<link rel="preload" href="{{ '/font1.woff2' | relative_url }}" as="font" crossorigin>
-<!--		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦄</text></svg>">-->
 		<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 		<script type="module" src="{{ '/main.js' | relative_url }}"></script>
 		{% if page.url == '/' %}

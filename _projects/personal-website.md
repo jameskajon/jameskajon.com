@@ -1,8 +1,8 @@
 ---
 title: jameskajon.com
 html_title: jameskajon<wbr>.com
-subtitle: This website to show off my programming projects and experiences.
-description: This website was originally written using the Django framework during the summer of 2019 to highlight my programming projects and experiences. It now serves the same purpose but is written using Jekyll and runs on GitHub Pages instead of Python running on an AWS NGINX server.
+subtitle: My programming projects and experiences.
+description: This website highlights my programming projects and experiences. It was originally written using the Django framework during the summer of 2019 and ran on an AWS NGINX server. As of 2021, it serves the same purpose but has been rewritten using Jekyll and runs on GitHub Pages.
 type: ''
 date: 2020-12-01
 ---

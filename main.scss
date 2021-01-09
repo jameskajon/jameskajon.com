@@ -290,7 +290,7 @@ Generated with https://icomoon.io/app/
 }
 
 .fa-linkedin:before {
-  content: '\f08c';
+	content: '\f08c';
 }
 
 kbd {
@@ -312,4 +312,18 @@ kbd {
 
 .is-unclickable {
 	pointer-events: none;
+}
+
+#protect-game {
+	position: absolute;
+	top: 3.25rem;
+	width: 100%;
+	min-height: 100vh;
+	display: none;
+
+	canvas {
+		width: 100%;
+		min-height: 100vh;
+	}
+
 }

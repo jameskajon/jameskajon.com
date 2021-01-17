@@ -5,21 +5,12 @@ title: About
 
 # About James Kajon
 
-I'm a full-time open-source developer. In 2014, I quit my office job to backpack around Southeast Asia while doing open-source. I have since settled in Bangkok, Thailand, but I'm still doing open-source all day. In early 2018, I became [fully funded by the community ❤️](https://twitter.com/sindresorhus/status/963478258808340482).
-
-My current focus is on macOS app development with Swift and Node.js-based packages and CLI tools. I actively maintain [1000+ npm packages](https://www.npmjs.com/~sindresorhus) and [many popular projects](https://github.com/search?q=user%3Asindresorhus+user%3Achalk+user%3Aavajs+user%3Axojs&type=Repositories).
-
-### More
-
-- [Interviewed by Between the Wires](https://medium.freecodecamp.org/sindre-sorhus-8426c0ed785d)
-- [Answering Anything & Everything](https://blog.sindresorhus.com/answering-anything-678ce5623798)
-- [About Me Blog Post](https://blog.sindresorhus.com/about-sindre-sorhus-42786d2e191b)
+I am a senior seeking a full-time job as a software engineer. I will graduate from WPI with a BS in Computer Science in May of 2021. I have been programming since 2015, so I am excited to be looking for my first full-time job. On this website, you can check out some of my [projects]({% link projects.md %}) and work [experiences]({% link experiences.md %}).
 
 ### Links
 
-- [GitHub](https://github.com/sindresorhus)
-- [Twitter](https://twitter.com/sindresorhus)
-- [Instagram](https://instagram.com/sindresorhus)
-- [Unsplash](https://unsplash.com/@sindresorhus)
-- [Patreon](https://www.patreon.com/sindresorhus)
+- [GitHub](https://github.com/jameskajon)
+- [LinkedIn](https://www.linkedin.com/in/jameskajon)
+- [Resume](/assets/James%20Kajon%20-%20Resume.pdf)
+- [Keybase](https://keybase.io/jameskajon)
 - [Email](/contact)

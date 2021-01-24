@@ -18,7 +18,8 @@ layout: default
 			<div class="columns is-vcentered">
 				<div class="column is-two-thirds is-centered has-nice-link">
 					<div itemscope itemtype="https://schema.org/Person">
-						<img id="profile-pic" src="james-kajon.jpg" width="160" height="160" itemprop="image">
+<!--						<img id="profile-pic" src="james-kajon.jpg" width="160" height="160" itemprop="image">-->
+						{% responsive_image path: james-kajon.jpg alt: "Lorem ipsum..." title: "Lorem ipsum..." %}
 						<h1 class="title is-2" itemprop="name">James A. Kajon</h1>
 						<h2 class="subtitle is-4" itemprop="description">Worcester Polytechnic Institute Senior studying Computer Science</h2>
 						<p>I make lots of modules, CLI tools, and apps. Mostly Swift &amp; Node.js.</p>

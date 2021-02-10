@@ -1,50 +1,14 @@
 title: James Kajon
 description: Worcester Polytechnic Institute Senior studying Computer Science
 baseurl: ''
-url: https://sindresorhus.com
+url: https://www.jameskajon.com
 permalink: slug
-collections:
-  apps:
-    output: true
-    permalink: /:title
-    include: app-assets
-  experiences:
-    output: true
-    permalink: /:title
-    include: app-assets
-  projects:
-    output: true
-    permalink: /:title
-    include: app-assets
-defaults:
-  - scope:
-      path: ''
-      type: 'apps'
-    values:
-      layout: 'activity'
-      type: 'app'
-      show_support_link: true
-  - scope:
-      path: ''
-      type: 'experiences'
-    values:
-      layout: 'activity'
-      type: 'experiences'
-      show_support_link: false
-  - scope:
-      path: ''
-      type: 'projects'
-    values:
-      layout: 'activity'
-      type: 'projects'
-      show_support_link: false
 exclude:
   - Gemfile
   - Gemfile.lock
   - readme.md
   - license
   - CNAME
-  - screenshot.jpg
   - vendor
 plugins:
   - jekyll-sitemap

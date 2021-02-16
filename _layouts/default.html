@@ -30,10 +30,6 @@
 		<link rel="preload" href="{{ '/font1.woff2' | relative_url }}" as="font" crossorigin>
 		<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 		<script type="module" src="{{ '/main.js' | relative_url }}"></script>
-		{% if page.url == '/' %}
-			<script src="{{ '/assets/javascript/timeago.min.js' | relative_url }}"></script>
-			<script type="module" src="{{ '/index.js' | relative_url }}"></script>
-		{% endif %}
 	</head>
 	<body>
 		<section class="hero">
@@ -42,7 +38,7 @@
 					<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
 						<div class="navbar-brand">
 							{% if page.url == '/' %}
-								<a id="unicorn-btn" class="navbar-item" href="https://sindresorhus.com/unicorn" title="Click me!"><img src="/icons/logo-192x192.png" alt="James A. Kajon"></a>
+								<span class="navbar-item"><img src="/icons/logo-192x192.png" alt="James A. Kajon"></span>
 							{% else %}
 								<span class="navbar-item">James A. Kajon</span>
 							{% endif %}

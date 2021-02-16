@@ -115,13 +115,6 @@ layout: default
 								<a class="is-link" href="{{ page.repo_url }}">Source on GitHub</a>
 							</li>
 						{% endif %}
-						{% unless page.is_prerelease %}
-							{% if page.show_support_link %}
-								<li>
-									<a class="is-link" href="https://sindresorhus.com/feedback?product={{ page.title | url_encode }}">Support</a>
-								</li>
-							{% endif %}
-						{% endunless %}
 						{% for link in page.links %}
 							<li>
 								<a href="{{ link[1] }}">{{ link[0] }}</a>

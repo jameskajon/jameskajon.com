@@ -1,7 +1,7 @@
 title: James Kajon
 description: Worcester Polytechnic Institute Senior studying Computer Science
 baseurl: ''
-url: https://sindresorhus.com
+url: https://www.jameskajon.com
 permalink: slug
 collections:
   apps:
@@ -44,7 +44,6 @@ exclude:
   - readme.md
   - license
   - CNAME
-  - screenshot.jpg
   - vendor
 plugins:
   - jekyll-sitemap

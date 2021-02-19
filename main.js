@@ -14,5 +14,9 @@ burger.addEventListener('click', () => {
 	menu.classList.toggle('is-active');
 });
 
-// Higlight active nav menu item
-dom.select(`.navbar-menu a[href$="${window.location.pathname}"]`).classList.add('is-active');
+// Highlight active nav menu item
+{
+	let activeItem = dom.select(`.navbar-menu a[href$="${window.location.pathname}"]`);
+	if (activeItem)
+		activeItem.classList.add('is-active');
+}

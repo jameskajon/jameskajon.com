@@ -1,13 +1,13 @@
 ---
 title: Worcester Poly&shy;technic Institute
 subtitle: Pursuing a BS in Computer Science.
-description: WPI is a STEM college in Worcester, MA. True to its motto "Lehr und Kunst" - theory and practice - my coursework has had an emphasis on executing theory in projects. I find this to be an effective way of learning and was a big part of my interest in attending WPI. At WPI, I have taken many Computer Science classes. I rounded out my STEM education with classes in Math, Engineering, and Physics, and also studied German.
+description: WPI is a STEM college in Worcester, MA. True to its motto "Lehr und Kunst" - theory and practice - my coursework has had an emphasis on executing theory through projects. I find this to be an effective way of learning and was a big part of my interest in attending WPI. At WPI, I have taken many Computer Science classes. I rounded out my STEM education with classes in Math, Engineering, and Physics, and also studied German.
 type: ''
 date: 2021-01-30
 links:
   'IQP Report': https://web.wpi.edu/Pubs/E-project/Available/E-project-051520-172624/unrestricted/Improving_the_Recognition_of_Junior_Achievement_of_Armenia.pdf
 ---
-<a href="https://www.wpi.edu/">WPI</a> is a STEM college in Worcester, MA. True to its motto "Lehr und Kunst" - theory and practice - my coursework has had an emphasis on executing theory in projects. I find this to be an effective way of learning and was a big part of my interest in attending WPI.
+<a href="https://www.wpi.edu/">WPI</a> is a STEM college in Worcester, MA. True to its motto "Lehr und Kunst" - theory and practice - my coursework has had an emphasis on executing theory through projects. I find this to be an effective way of learning and was a big part of my interest in attending WPI.
 
 At WPI, I have taken many <a href="https://www.wpi.edu/academics/departments/computer-science">Computer Science</a> classes. I rounded out my STEM education with classes in Math, Engineering, and Physics, and also studied German.
 

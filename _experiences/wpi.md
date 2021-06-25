@@ -3,7 +3,7 @@ title: Worcester Poly&shy;technic Institute
 subtitle: Bachelor of Science in Computer Science.
 description: WPI is a STEM college in Worcester, MA. True to its motto "Lehr und Kunst" - theory and practice - my coursework had an emphasis on executing theory through projects. I found this to be an effective way of learning and was a big part of my interest in attending WPI. At WPI, I took many Computer Science classes. I rounded out my STEM education with classes in Math, Engineering, and Physics, and also studied German.
 type: ''
-date: 2021-01-30
+date: 2021-05-13
 links:
   'MQP Report': /assets/wpi/Developing_Software_Infrastructure_that_Empowers_Teachers_to_Create_Custom_Content_on_a_Computer_Aided_Learning_Platform.pdf
   'IQP Report': /assets/wpi/Improving_the_Recognition_of_Junior_Achievement_of_Armenia.pdf

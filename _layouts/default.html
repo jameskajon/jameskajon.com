@@ -27,7 +27,7 @@
 		{% endif %}
 		<meta name="x-build-time" content="{{ site.time | date_to_rfc822 }}">
 		<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-		<link rel="preload" href="{{ '/font1.woff2' | relative_url }}" as="font">
+		<link rel="prefetch" href="{{ '/font1.woff2' | relative_url }}" as="font" crossorigin>
 		<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 		<script type="module" src="{{ '/main.js' | relative_url }}"></script>
 	</head>

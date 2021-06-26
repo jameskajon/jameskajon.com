@@ -5,7 +5,7 @@ title: About
 
 # About James Kajon
 
-I am a senior seeking a full-time job as a software engineer. I will graduate from WPI with a BS in Computer Science in May of 2021. I have been programming since 2015, so I am excited to be looking for my first full-time job. On this website, you can check out some of my [projects]({% link projects.md %}) and work [experiences]({% link experiences.md %}).
+I graduated from WPI with a BS in Computer Science in May of 2021. I am seeking a full-time job as a software engineer in the Greater Boston area. I have been programming since 2015, so I am excited to be looking for my first full-time job. On this website, you can check out some of my [projects]({% link projects.md %}) and work [experiences]({% link experiences.md %}).
 
 ### Links
 

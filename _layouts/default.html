@@ -27,7 +27,7 @@
 		{% endif %}
 		<meta name="x-build-time" content="{{ site.time | date_to_rfc822 }}">
 		<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-		<link rel="preload" href="{{ '/font1.woff2' | relative_url }}" as="font" crossorigin>
+		<link rel="preload" href="{{ '/font1.woff2' | relative_url }}" as="font">
 		<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
 		<script type="module" src="{{ '/main.js' | relative_url }}"></script>
 		{% if page.url == '/' %}
@@ -42,7 +42,16 @@
 					<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
 						<div class="navbar-brand">
 							{% if page.url == '/' %}
-								<a id="unicorn-btn" class="navbar-item" href="https://sindresorhus.com/unicorn" title="Click me!"><img src="/icons/logo-192x192.png" alt="James A. Kajon"></a>
+								<a id="unicorn-btn" class="navbar-item" href="https://sindresorhus.com/unicorn" title="Click me!">
+									<img src="/icons/logo-32x32.png" alt="James A. Kajon"
+										 srcset="/icons/logo-16x16.png 16w,
+												 /icons/favicon.ico 16w,
+												 /icons/logo-32x32.png 32w,
+												 /icons/logo-180x180.png 180w,
+												 /icons/logo-192x192.png 192w,
+												 /icons/logo-512x512.png 512w"
+										 sizes="28px">
+								</a>
 							{% else %}
 								<span class="navbar-item">James A. Kajon</span>
 							{% endif %}
